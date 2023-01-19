@@ -8,9 +8,9 @@ function App() {
   return (
     <>
       <Navbar title="My web app" contact="Contact me"></Navbar>
-      <div className="d-flex justify-content-center align-items-center">
-        <TextForm heading="Enter your text"></TextForm>
-      </div>
+      {/* <div className="d-flex justify-content-center align-items-center"> */}
+      <TextForm heading="Enter your text"></TextForm>
+      {/* </div> */}
     </>
   );
 }

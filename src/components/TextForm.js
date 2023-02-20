@@ -23,7 +23,7 @@ export default function TextForm(prop) {
     // const mouseEnter = () => {
     //     usecounter(counter + 1)
     // }
-
+    // const abc = (a, b) => { a * b }
     return (
         <>
             <div className="container">
@@ -47,6 +47,8 @@ export default function TextForm(prop) {
                 <p>You have written <span color='blue'>{text.length}</span> letters & <span color='yellow'> {text.split(" ").length} </span> words</p>
                 <h1>Live preview</h1>
                 <p>{text}</p>
+                {/* <p>{abc(2, 10)}</p> */}
+
             </div>
         </>
     )

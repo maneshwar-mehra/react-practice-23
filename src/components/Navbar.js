@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import LinkItem from './LinkItem'
 export default function Navbar(props) {
     return (
 
@@ -19,6 +20,9 @@ export default function Navbar(props) {
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/">{props.contact}</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="/"><LinkItem title="https://www.google.co.in/" /></a>
                         </li>
                     </ul>
                     <form className="d-flex" role="search">
